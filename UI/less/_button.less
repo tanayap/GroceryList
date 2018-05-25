@@ -1,0 +1,25 @@
+@import "_color.less";
+@import "_format.less";
+.btn {
+    border: 1px solid @color-black;
+    color: @color-black;
+    padding: 5px 1px;
+    font-size: 10px;
+    cursor: pointer;
+    display:block;
+    letter-spacing: @letterspace;
+    .rounded;
+    background-color:@color-white;
+}
+
+.btn-narrow{
+width:10%;
+}
+.btn-right{ 
+ float:@rightalign;
+ margin-right:20px;
+}
+.btn:hover {
+    background-color:@color-grey;
+    color:@color-black;
+}
